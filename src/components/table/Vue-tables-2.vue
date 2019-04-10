@@ -1,11 +1,11 @@
 <template>
     <div>
         <v-client-table :data="tableData" :columns="columns" :options="options">
-            <template slot="edit">
+            <template slot="edit" slot-scope="props">
                 <div>
+                    <b-btn variant="outline-sucess bolderless icon-btn" class="btn-xs" @click.prevent="edit(props.row)"><i class="ion ion-md-create"></i></b-btn>
+                    <b-btn variant="outline-dander bolderless icon-btn" class="btn-xs" @click.prevent="remove(props.row)"><i class="ion ion-md-close"></i></b-btn>
                 </div>
-            </template>
-            <template>
             </template>
         </v-client-table>
     </div>
