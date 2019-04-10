@@ -67,7 +67,7 @@
 }
 
 .default-style {
-  @import "~@/vendor/styles/_appwork/include";
+  @import "../../styles/_appwork/include";
 
   .VueTables__sort-icon {
     color: $text-muted;
@@ -90,7 +90,7 @@
 }
 
 .material-style {
-  @import "~@/vendor/styles/_appwork/include-material";
+  @import "../../styles/_appwork/include-material";
 
   .VueTables__sort-icon {
     color: $text-muted;
