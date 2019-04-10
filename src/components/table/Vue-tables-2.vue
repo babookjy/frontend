@@ -15,7 +15,7 @@
     </div>
 </template>
 
-<style lang="scss" src="../../vendor/libs/vue-data-tables/vue-data-tables.scss" ></style>
+<style src="@/vendor/libs/vue-data-tables/vue-data-tables.scss" lang="scss"></style>
 
 <script>
 import Vue from 'vue'
@@ -77,7 +77,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-</style>
